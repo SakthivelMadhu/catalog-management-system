@@ -6,9 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
-public abstract class ProductServiceImpl implements ProductService {
+public class ProductServiceImpl implements ProductService {
 
     @Autowired
     private ProductRepository productRepository;
@@ -42,4 +43,10 @@ public abstract class ProductServiceImpl implements ProductService {
     public List<Product> getProductsByCategory(String category) {
         return productRepository.findByCategoryIgnoreCaseContaining(category);
     }
+
+	@Override
+	public Optional<Product> getProductById(Long id) {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
 }

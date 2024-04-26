@@ -47,17 +47,6 @@ catalog-management-system
 │   │       ├── application.properties
 │   │       ├── data.sql
 │   │       └── logback.xml
-│   └── test
-│       └── java
-│           └── com
-│               └── example
-│                   └── catalog
-│                       ├── controller
-│                       │   └── ProductControllerTest.java
-│                       ├── repository
-│                       │   └── ProductRepositoryTest.java
-│                       └── service
-│                           └── ProductServiceTest.java
 └── README.md
 └── pom.xml
 
@@ -78,6 +67,18 @@ mvn clean package
 ```bash
 java -jar target/catalog-management-system.jar
 ```
+
+
+## Features
+1. `CRUD Operations`: Perform Create, Read, Update, and Delete operations on product data.
+2. `Search and Filtering`: Filter products based on various criteria using query parameters.
+3. `Data Validation`: Input validation using validation annotations ensures data integrity.
+4. `Data Persistence`: Utilize Spring Data JPA repositories for interacting with the database.
+5. `Logging and Auditing`: Implement logging with Logback for tracking application events. Add auditing features to track changes made to product data.
+6. `RESTful API`: Expose RESTful API endpoints for seamless integration with other systems.
+7. `Documentation`: Clear and concise documentation on how to run the application and access API endpoints.
+8. `Error Handling`: Gracefully handle validation errors and other exceptions, returning appropriate HTTP status codes.
+
 
 ### Accessing API Endpoints
 
