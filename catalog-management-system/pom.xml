@@ -26,6 +26,21 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+
+		 <!-- H2 Database for in-memory database (optional, you can choose MySQL or any other database) -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		
+		<!-- Spring Boot Starter Validation for input validation -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>

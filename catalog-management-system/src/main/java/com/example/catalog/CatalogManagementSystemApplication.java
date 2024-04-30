@@ -8,8 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 @SpringBootApplication
 @ComponentScan("com.example.catalog") 
-@Configuration
-//@EntityScan({"com.example.catalog.entity" , "com.example.admin.user"})
+@EntityScan("com.example.catalog.entity")
 public class CatalogManagementSystemApplication {
 
 	public static void main(String[] args) {

@@ -46,7 +46,6 @@ public class ProductServiceImpl implements ProductService {
 
 	@Override
 	public Optional<Product> getProductById(Long id) {
-		// TODO Auto-generated method stub
-		return Optional.empty();
+		return productRepository.findById(id);
 	}
 }

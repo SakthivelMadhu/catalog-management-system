@@ -15,7 +15,6 @@ import org.springframework.context.annotation.ComponentScan;
 import java.util.Date;
 
 @Entity
-@EntityScan
 public class Product {
     
 	@Id
