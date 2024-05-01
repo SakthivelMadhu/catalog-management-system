@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.example.catalog") 
+@ComponentScan("com.example.catalog.repository") 
 @EntityScan("com.example.catalog.entity")
 public class CatalogManagementSystemApplication {
 
