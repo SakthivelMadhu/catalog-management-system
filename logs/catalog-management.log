@@ -1582,3 +1582,82 @@ Unconditional classes:
 2024-05-01 09:22:43.317 [restartedMain] DEBUG o.s.boot.devtools.restart.Restarter - Immediately restarting application
 2024-05-01 09:22:43.317 [restartedMain] DEBUG o.s.boot.devtools.restart.Restarter - Starting application com.example.catalog.CatalogManagementSystemApplication with URLs [file:/C:/Users/sakth/OneDrive/Desktop/Myproject/catalog-management-system/catalog-management-system/target/classes/]
 2024-05-01 09:22:43.318 [restartedMain] DEBUG o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2024-05-01 09:24:58.963 [http-nio-8082-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-01 09:24:58.964 [http-nio-8082-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-05-01 09:24:58.965 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2024-05-01 09:24:58.965 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2024-05-01 09:24:58.965 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2024-05-01 09:24:58.966 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4322f258
+2024-05-01 09:24:58.967 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@5008a797
+2024-05-01 09:24:58.968 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-05-01 09:24:58.968 [http-nio-8082-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-05-01 09:24:58.986 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/products", parameters={}
+2024-05-01 09:24:59.004 [http-nio-8082-exec-3] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-01 09:24:59.018 [http-nio-8082-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:24:59.022 [http-nio-8082-exec-3] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2024-05-01 09:24:59.033 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products.]
+2024-05-01 09:24:59.034 [http-nio-8082-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:24:59.036 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2024-05-01 09:24:59.048 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2024-05-01 09:24:59.051 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2024-05-01 09:24:59.052 [http-nio-8082-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:24:59.095 [http-nio-8082-exec-3] DEBUG o.s.w.s.v.ContentNegotiatingViewResolver - Selected 'text/html' given [text/html, text/html;q=0.8]
+2024-05-01 09:24:59.100 [http-nio-8082-exec-3] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:24:59.105 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2024-05-01 09:24:59.529 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/favicon.ico", parameters={}
+2024-05-01 09:24:59.530 [http-nio-8082-exec-2] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-01 09:24:59.531 [http-nio-8082-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:24:59.533 [http-nio-8082-exec-2] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2024-05-01 09:24:59.533 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource favicon.ico.]
+2024-05-01 09:24:59.534 [http-nio-8082-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:24:59.534 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2024-05-01 09:24:59.544 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2024-05-01 09:24:59.550 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-05-01 09:24:59.551 [http-nio-8082-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:24:59.578 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json]
+2024-05-01 09:24:59.584 [http-nio-8082-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed May 01 09:24:59 IST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-05-01 09:24:59.654 [http-nio-8082-exec-2] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:24:59.655 [http-nio-8082-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2024-05-01 09:26:09.697 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/products", parameters={}
+2024-05-01 09:26:09.698 [http-nio-8082-exec-6] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-01 09:26:09.699 [http-nio-8082-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:09.705 [http-nio-8082-exec-6] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2024-05-01 09:26:09.706 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products.]
+2024-05-01 09:26:09.706 [http-nio-8082-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:09.707 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2024-05-01 09:26:09.708 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={}
+2024-05-01 09:26:09.709 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-05-01 09:26:09.711 [http-nio-8082-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:09.713 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-01 09:26:09.713 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed May 01 09:26:09 IST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-05-01 09:26:09.715 [http-nio-8082-exec-6] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:09.719 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2024-05-01 09:26:19.105 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/products", parameters={}
+2024-05-01 09:26:19.113 [http-nio-8082-exec-7] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-01 09:26:19.121 [http-nio-8082-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:19.123 [http-nio-8082-exec-7] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2024-05-01 09:26:19.123 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products.]
+2024-05-01 09:26:19.124 [http-nio-8082-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:19.163 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2024-05-01 09:26:19.188 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+2024-05-01 09:26:19.206 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-05-01 09:26:19.210 [http-nio-8082-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:19.218 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-01 09:26:19.223 [http-nio-8082-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed May 01 09:26:19 IST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-05-01 09:26:19.224 [http-nio-8082-exec-7] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:19.225 [http-nio-8082-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2024-05-01 09:26:34.691 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/products", parameters={}
+2024-05-01 09:26:34.691 [http-nio-8082-exec-8] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2024-05-01 09:26:34.692 [http-nio-8082-exec-8] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:34.693 [http-nio-8082-exec-8] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+2024-05-01 09:26:34.693 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource products.]
+2024-05-01 09:26:34.694 [http-nio-8082-exec-8] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:34.694 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+2024-05-01 09:26:34.694 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for POST "/error", parameters={}
+2024-05-01 09:26:34.695 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2024-05-01 09:26:34.695 [http-nio-8082-exec-8] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Opening JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:34.697 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-05-01 09:26:34.698 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Wed May 01 09:26:34 IST 2024, status=404, error=Not Found, trace=org.springframework.web. (truncated)...]
+2024-05-01 09:26:34.700 [http-nio-8082-exec-8] DEBUG o.s.o.j.s.OpenEntityManagerInViewInterceptor - Closing JPA EntityManager in OpenEntityManagerInViewInterceptor
+2024-05-01 09:26:34.701 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+2024-05-01 10:09:44.530 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m8s912ms514µs300ns).
